@@ -3,7 +3,16 @@
 #UI{
     display: grid;
     grid-template-columns: 4fr 1fr;
+    
 }
+
+#UI .UIMain{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position : center;
+    background-image: url("../Img/Programing.png");
+}
+
 #UI .UIBox{
     border-left: 2px solid black;
     padding: 10px;
