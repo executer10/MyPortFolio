@@ -1,0 +1,39 @@
+@charset "utf-8";
+/*      브라우저 리셋      */
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style:none;
+    text-decoration: none;
+}
+body{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-image: url("../Img/Gru.gif"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position : center;
+    background-color: rgb(68, 38, 177);
+}
+#entire{
+    background-color: white;
+}
+.Title{
+    height: 170px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 50px;
+    padding-top: 30px;
+}
+#UI{
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+
+}
+
+.Footer{
+    height: 160px;
+    border: 2px solid black;
+}

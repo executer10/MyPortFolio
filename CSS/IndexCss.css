@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+#UI{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+#UI .UIBox{
+    border-left: 2px solid black;
+    padding: 10px;
+}
+
+#UI .UIStyle{
+    padding: 10px;
+}
+#UI .UIStyle input{
+    padding: 10px;
+    font-size: 15px;
+}
+
+.UIBox .UIStyleSecond{
+    margin-bottom: 40px;
+    border: 2px solid black;
+    padding: 10px;
+}
